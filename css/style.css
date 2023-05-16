@@ -1,0 +1,185 @@
+:root {
+  --background-color: #ffffff;
+}
+
+ /* Спискам убрать точки */
+.list {
+  list-style: none;
+  color: #434455;
+}
+
+
+
+.menu-item {
+  text-decoration: none;
+  /* text-decoration: none; ПРИБРАТИ ПІДКРЕСЛЕННЯ */
+  font-weight: 500;
+  /* font-weight: 500; ТОВЩИНА ШРИФТУ */
+  line-height: 1.5;
+  /* line-height: 1.5; МІЖРЯДКОВИЙ ІНТЕРВАЛ */
+  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; ІНТЕРВАЛ МІЖ СИМВОЛАМИ */
+  color: #434455;
+}
+
+.menu-item:focus,
+.link:hover {
+  color: #404bbf;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: var(--background-color);
+}
+
+/* header */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
+  color: #4d5ae5;
+}
+
+.span-logo {
+  color: #2e2f42;
+}
+/* address */
+
+.address {
+  font-style: normal;
+  /* font-style: normal; НАКРЕСЛЕННЯ ТЕКСТУ, НОРМ, КУРСИВ */
+}
+
+.link-adress {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.link-adress:hover,
+.link-adress:focus {
+  color: #404bbf;
+}
+
+/* section 1 */
+.hero-image {
+  background-color: #2e2f42;
+}
+.hero-name {
+  font-size: 56px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.button-service {
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  /* cursor: pointer; ТИП ВКАЗІВНИКА МИШІ НА ОБ'ЄКТІ, pointer вказівник, рука */
+}
+.button-service:hover,
+.button-service:focus {
+  background-color: #404bbf;
+}
+
+/* section 2 */
+
+.second-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.paragraf {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  color: #434455;
+}
+/* section 3 */
+.title-main {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  /* text-align: center; ВИРІВНЮВАННЯ ТЕКСТУ ЗА ГОРИЗОНТАЛЛЮ */
+  text-transform: capitalize;
+  /* text-transform: capitalize; РЕГІСТР ТЕКСТУ, CAPITALIZE-перша літера кожного слова перетворюється на ВЕЛИКУ */
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+/* section 4 */
+.sec-ourteam {
+  background-color: #f4f4fd;
+}
+.list-foto {
+  background-color: #ffffff;
+}
+/* footer */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: #f4f4fd;
+}
+
+.footer-p {
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.032em;
+  /* letter-spacing: 0.032em; ІНТЕРВАЛ МІЖ СИМВОЛАМИ */
+}
+/* portfolio */ /* P-O-R-T-F-O-L-I-O */ /* portfolio */
+
+/* main */
+.button-all {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.button-all:hover,
+.button-all:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.title-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
