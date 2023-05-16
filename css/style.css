@@ -2,6 +2,29 @@
   --background-color: #ffffff;
 }
 
+/* Всем заголовкам и абзацам убираем отступы сверху сниху от браузера */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  margin: 0;
+}
+
+.container {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: var(--background-color);
+  position: relative;
+  width: 1440px;
+  height: 2592px;
+  margin:auto;
+}
+
+
  /* Спискам убрать точки */
 .list {
   list-style: none;
@@ -35,11 +58,6 @@
   color: #2e2f42;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: var(--background-color);
-}
 
 /* header */
 .logo {
@@ -51,6 +69,7 @@ body {
   text-transform: uppercase;
   /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
   color: #4d5ae5;
+
 }
 
 .span-logo {
@@ -77,22 +96,46 @@ body {
   color: #404bbf;
 }
 
-/* section 1 */
+                                              /* section 1 */
 .hero-image {
   background-color: #2e2f42;
+  width: 1440px;
+height: 600px;
+margin-top: 0px;
 }
 .hero-name {
+  display: flex;
+  justify-content: center;
+  height: 188px;
   font-size: 56px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   text-align: center;
+  padding-top: 188px;
+  margin-top: 0px;
+
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .button-service {
+  display: flex;
+  /* ВИРІВНЮВАННЯ ПО ВЕРТИКАЛІ І ПО ГОРИЗОНТАЛІ */
+  align-items: center;
+  justify-content: center;
+    /* white-space: nowrap; Запобігти переносу тексту */
+  white-space: nowrap;
+  padding: 8px 32px;
+  gap: 10px;
+
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -108,7 +151,13 @@ body {
   background-color: #404bbf;
 }
 
-/* section 2 */
+                                          /* section 2 */
+
+.section-2-list {
+  width: 1128px;
+  height: 104px;
+  padding: 120px 156px;
+}
 
 .second-title {
   font-weight: 500;
@@ -116,13 +165,30 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  
+  padding-top: 32px;
 }
+
+.section-2-list .second-title {
+  margin-bottom: 8px;
+}
+
 .paragraf {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
   color: #434455;
+  }
+
+                                          /* section 3 */
+
+.section-3-list {
+  position: absolute;
+  width: 1128px;
+  height: 412px;
+  margin: 0px 156px 120px 156px;
 }
+
 /* section 3 */
 .title-main {
   font-size: 36px;
@@ -133,21 +199,61 @@ body {
   /* text-transform: capitalize; РЕГІСТР ТЕКСТУ, CAPITALIZE-перша літера кожного слова перетворюється на ВЕЛИКУ */
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding-bottom: 72px;
 }
 
 /* section 4 */
 .sec-ourteam {
+  position: absolute;
+  width: 1440px;
+  height: 732px;
+  left: 0px;
+  top: 1548px;
+  padding-top: 120px;
   background-color: #f4f4fd;
 }
+
+.our-team {
+  
+}
+
+
+
 .list-foto {
   background-color: #ffffff;
 }
+
+.list-foto .second-title {
+  text-align: center;
+}
+
+.list-foto .paragraf {
+  text-align: center;
+}
+
 /* footer */
 .footer {
+  position: absolute;
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 2280px;
+
+  /* NAVY BLUE */
+
+  background: #2E2F42;
   background-color: #2e2f42;
 }
+
+.footer-a-p {
+  margin-top: 100px;
+  margin-left: 156px;
+  margin-bottom: 0px;
+}
+
 .footer-logo {
   color: #f4f4fd;
+  
 }
 
 .footer-p {
@@ -157,8 +263,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.032em;
   /* letter-spacing: 0.032em; ІНТЕРВАЛ МІЖ СИМВОЛАМИ */
+  padding-top: 16px;
 }
-/* portfolio */ /* P-O-R-T-F-O-L-I-O */ /* portfolio */
+
 
 /* main */
 .button-all {
@@ -182,4 +289,63 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.page-header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1440px;
+  height: 72px;
+  }
+
+.page-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.list {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sec-ourteam .list {
+  padding: 72px 156px 104px 156px;
+}
+
+.address {
+  display: block;
+  
+}
+
+img {
+  /* убираем снизу отступ от каждой картинки */
+  display: block;
+  /* максимальная ширина, чтоб не растягивались */
+  max-width: 100%;
+}
+
+                                        /* portfolio */ /* P-O-R-T-F-O-L-I-O */ /* portfolio */
+
+.portfolio-button-list {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 586px;
+height: 48px;
+}
+
+.portfolio-list li {
+  
+  flex-basis: calc((100% - 2 * 24px) / 3);
+  
+  gap: 16px;
 }
