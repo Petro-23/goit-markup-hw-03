@@ -15,23 +15,20 @@ p {
 }
 
 .container {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-color);
   position: relative;
   width: 1440px;
   height: 2592px;
-  margin:auto;
+  margin: auto;
 }
 
-
- /* Спискам убрать точки */
+/* Спискам убрать точки */
 .list {
   list-style: none;
   color: #434455;
 }
-
-
 
 .menu-item {
   text-decoration: none;
@@ -58,10 +55,9 @@ p {
   color: #2e2f42;
 }
 
-
 /* header */
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -69,7 +65,6 @@ p {
   text-transform: uppercase;
   /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
   color: #4d5ae5;
-
 }
 
 .span-logo {
@@ -96,19 +91,19 @@ p {
   color: #404bbf;
 }
 
-                                              /* section 1 */
+                                                                    /* section 1 */
 .hero-image {
   background-color: #2e2f42;
   width: 1440px;
-height: 600px;
-margin-top: 0px;
+  height: 600px;
+  margin-top: 0px;
 }
 .hero-name {
   display: flex;
   justify-content: center;
   height: 188px;
   font-size: 56px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
@@ -125,7 +120,7 @@ margin-top: 0px;
   /* ВИРІВНЮВАННЯ ПО ВЕРТИКАЛІ І ПО ГОРИЗОНТАЛІ */
   align-items: center;
   justify-content: center;
-    /* white-space: nowrap; Запобігти переносу тексту */
+  /* white-space: nowrap; Запобігти переносу тексту */
   white-space: nowrap;
   padding: 8px 32px;
   gap: 10px;
@@ -137,7 +132,7 @@ margin-top: 0px;
   top: 428px;
 
   background-color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -151,7 +146,7 @@ margin-top: 0px;
   background-color: #404bbf;
 }
 
-                                          /* section 2 */
+                                                            /* section 2 */
 
 .section-2-list {
   width: 1128px;
@@ -165,7 +160,7 @@ margin-top: 0px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  
+
   padding-top: 32px;
 }
 
@@ -178,18 +173,23 @@ margin-top: 0px;
   letter-spacing: 0.02em;
   font-size: 16px;
   color: #434455;
-  }
-
-                                          /* section 3 */
-
-.section-3-list {
-  position: absolute;
-  width: 1128px;
-  height: 412px;
-  margin: 0px 156px 120px 156px;
 }
 
-/* section 3 */
+                                                           /* section 3 */
+
+.section-3-list {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  width: 1128px;
+  height: 104px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-3-list .list {
+  margin-bottom: 120px;
+}
+
 .title-main {
   font-size: 36px;
   line-height: 1.11;
@@ -202,17 +202,14 @@ margin-top: 0px;
   padding-bottom: 72px;
 }
 
-/* section 4 */
+                                                         /* section 4 */
 .sec-ourteam {
-  position: absolute;
+  margin-top: 120px;
+  padding-top: 120px;
   width: 1440px;
   height: 732px;
-  left: 0px;
-  top: 1548px;
-  padding-top: 120px;
   background-color: #f4f4fd;
 }
-
 
 .list-foto {
   background-color: #ffffff;
@@ -228,16 +225,11 @@ margin-top: 0px;
 
 /* footer */
 .footer {
-  position: absolute;
-  width: 1440px;
-  height: 312px;
-  left: 0px;
-  top: 2280px;
-
-  /* NAVY BLUE */
-
-  background: #2E2F42;
-  background-color: #2e2f42;
+  margin-top: 60px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  /* FOREST GREEN */
+  background: #0f3f3c;
 }
 
 .footer-a-p {
@@ -248,7 +240,6 @@ margin-top: 0px;
 
 .footer-logo {
   color: #f4f4fd;
-  
 }
 
 .footer-p {
@@ -261,10 +252,9 @@ margin-top: 0px;
   padding-top: 16px;
 }
 
-
 /* main */
 .button-all {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -292,9 +282,9 @@ margin-top: 0px;
   justify-content: space-around;
   width: 1440px;
   height: 72px;
-  background: #FFFFFF;
-  border-bottom: 1px solid #E7E9FC;
-  }
+  background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .page-nav {
   display: inline-flex;
@@ -317,7 +307,6 @@ margin-top: 0px;
 
 .address {
   display: block;
-  
 }
 
 img {
@@ -327,7 +316,7 @@ img {
   max-width: 100%;
 }
 
-                                        /* portfolio */ /* P-O-R-T-F-O-L-I-O */ /* portfolio */
+/* portfolio */ /* P-O-R-T-F-O-L-I-O */ /* portfolio */
 
 .portfolio-button-list {
   display: flex;
@@ -340,17 +329,16 @@ img {
   margin-right: auto;
   margin-bottom: 72px;
 
-width: 586px;
-height: 48px;
+  width: 586px;
+  height: 48px;
 }
 
 .button-all {
   width: 69px;
   height: 48px;
-  
 }
 
-.portfolio-list  {
+.portfolio-list {
   display: flex;
   /* FLEX - это в одну строку */
   flex-wrap: wrap;
@@ -376,9 +364,6 @@ height: 48px;
   border: #404bbf;
 }
 
-
-
 .portfolio-button-list li:hover {
   filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
 }
-
