@@ -30,6 +30,37 @@ p {
   color: #434455;
 }
 
+                                      /* Х-Е-Д-Е-Р */
+
+.page-header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 72px;
+  background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.list {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.menu {
+  padding: 24px 0;
+}
+
+
 .menu-item {
   text-decoration: none;
   /* text-decoration: none; ПРИБРАТИ ПІДКРЕСЛЕННЯ */
@@ -83,6 +114,10 @@ border: 1px solid #E7E9FC;
 .address {
   font-style: normal;
   /* font-style: normal; НАКРЕСЛЕННЯ ТЕКСТУ, НОРМ, КУРСИВ */
+}
+
+.address ul   {
+  display: flex;
 }
 
 .link-adress {
@@ -285,30 +320,6 @@ border: 1px solid #E7E9FC;
   color: #2e2f42;
 }
 
-.page-header {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 1440px;
-  height: 72px;
-  background: #ffffff;
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.page-nav {
-  display: inline-flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.list {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
 .sec-ourteam .list {
   padding: 72px 156px 104px 156px;
