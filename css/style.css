@@ -56,7 +56,7 @@ p {
   margin-bottom: 0px;
 }
 
-.menu {
+.menu :first-child {
   padding-top: 24px; 
   padding-bottom: 24px;
 }
