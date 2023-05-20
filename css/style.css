@@ -2,27 +2,40 @@
   --background-color: #ffffff;
 }
 
+body {
+  font-family: 'Roboto', normal;
+  padding: 1px;
+}
+
+.body {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+}
+
 /* Всем заголовкам и абзацам убираем отступы сверху сниху от браузера */
+p,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p {
-  margin: 0;
+h6 {
   margin: 0;
 }
 
-.container {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: var(--background-color);
-  position: relative;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 }
+
+img {
+  display: block;
+}
+
+
 
 /* Спискам убрать точки */
 .list {
@@ -30,22 +43,92 @@ p {
   color: #434455;
 }
 
-                                      /* Х-Е-Д-Е-Р */
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 
-.page-header {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 72px;
+                                      /* Х-Е-Д-Е-Р */
+/**-------------- HEADER------------------ */
+
+.container {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  /* background-color: var(--background-color); */
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.header-container {
+  text-decoration: none;
+  display: flex;
+  align-items: baseline;
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
 
-.page-nav {
-  display: inline-flex;
-  align-items: center;
-  gap: 40px;
+.header-navigation {
+  padding-left: 156px;
 }
+
+
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
+  color: #4d5ae5;
+  margin-right: 76px
+}
+
+.header-list :first-child {
+  display: flex;
+  gap: 30px;
+  padding-top: 24px; 
+  padding-bottom: 24px;
+}
+
+.header-address {
+  font-style: normal;
+  /* font-style: normal; НАКРЕСЛЕННЯ ТЕКСТУ, НОРМ, КУРСИВ */
+padding-right: 156px;
+}
+
+.span-logo {
+  color: #2e2f42;
+}
+/* address */
+
+
+
+.address ul   {
+  display: flex;
+}
+
+.header-address-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
 
 .list {
   display: inline-flex;
@@ -56,10 +139,7 @@ p {
   margin-bottom: 0px;
 }
 
-.menu :first-child {
-  padding-top: 24px; 
-  padding-bottom: 24px;
-}
+
 
 
 .menu-item {
@@ -79,13 +159,7 @@ p {
   color: #404bbf;
 }
 
-.link {
-  text-decoration: none;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+
 
 . portfolio-list .link {
   background: #FFFFFF;
@@ -94,70 +168,40 @@ p {
 border: 1px solid #E7E9FC;
 }
 
-/* header */
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
-  color: #4d5ae5;
-  margin-right: 76px
-}
 
-.span-logo {
-  color: #2e2f42;
-}
-/* address */
+/**---------------------- section 1 --------------------- */
 
-.address {
-  font-style: normal;
-  /* font-style: normal; НАКРЕСЛЕННЯ ТЕКСТУ, НОРМ, КУРСИВ */
-}
+  
 
-.address ul   {
-  display: flex;
-}
-
-.link-adress {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.link-adress:hover,
-.link-adress:focus {
-  color: #404bbf;
-}
-
-                                                                    /* section 1 */
-.hero-image {
+}.hero {
+  
   background-color: #2e2f42;
   width: 1440px;
-  height: 600px;
+  
   margin-top: 0px;
 
-  padding: 188px 0;
 }
-.hero-name {
+
+.hero-container {
   display: flex;
-  justify-content: center;
-  
+  flex-direction: column;
+  align-items: center;
+  background: #2E2F42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+
+}
+
+.hero-title {
   font-size: 56px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  text-align: center;
-  padding-top: 188px;
   margin-top: 0px;
 
   max-width: 496px;
+  text-align: center;
 
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -186,8 +230,6 @@ border: 1px solid #E7E9FC;
   padding: 8px 32px;
   gap: 10px;
 
-  
-
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -198,6 +240,7 @@ border: 1px solid #E7E9FC;
   cursor: pointer;
   /* cursor: pointer; ТИП ВКАЗІВНИКА МИШІ НА ОБ'ЄКТІ, pointer вказівник, рука */
 }
+
 .button-service:hover,
 .button-service:focus {
   background-color: #404bbf;
@@ -282,18 +325,26 @@ border: 1px solid #E7E9FC;
   text-align: center;
 }
 
-/* footer */
+/**--------------------- footer -------------------------- */
+
 .footer {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  display: flex;
+  width: 1440px;
+
+  
   /* FOREST GREEN */
   background: #0f3f3c;
+
+
 }
 
 .footer-a-p {
-  margin-top: 100px;
-  margin-left: 156px;
-  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
