@@ -126,7 +126,7 @@ padding-right: 156px;
 .span-logo {
   color: #2e2f42;
 }
-/* ----------------address------------------- */
+/** ----------------address------------------- */
 
 .header-address-link {
   text-decoration: none;
@@ -177,15 +177,8 @@ border: 1px solid #E7E9FC;
 
 /**---------------------- section 1 --------------------- */
 
-  
-
 .hero {
-  
-  background-color: #2e2f42;
-  width: 1440px;
-  padding: 188px 0
-  margin-top: 0px;
-
+  padding: 188px 0;
 }
 
 .hero-container {
@@ -253,10 +246,9 @@ border: 1px solid #E7E9FC;
   background-color: #404bbf;
 }
 
-                                    /* section 2 */
+/** -------------------- section 2 ----------------- */
 
-.section-2-list {
-  width: 1128px;
+.section-2 {
   padding: 120px 0;
 }
 
@@ -264,7 +256,7 @@ border: 1px solid #E7E9FC;
   gap: 24px;
 }
 
-.strategy {
+.section-2-skills {
   width: calc((100% - 72px) / 4);
 }
 
@@ -275,11 +267,10 @@ border: 1px solid #E7E9FC;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
   padding-top: 32px;
 }
 
-.section-2-list .second-title {
+.section-2-skills .second-title {
   margin-bottom: 8px;
 }
 
