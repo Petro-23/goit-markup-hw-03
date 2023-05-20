@@ -315,22 +315,43 @@ border: 1px solid #E7E9FC;
   padding-left: 0px;
 }
 
-                                                         /* section 4 */
+/** -------------------------- section 4 -----------------*/
 .sec-ourteam {
-  padding-top: 120px;
+  padding: 120px 0;
   width: 1440px;
   background-color: #f4f4fd;
 }
 
-.list-foto {
-  background-color: #ffffff;
+.section-4-list-div .title-main {
+  margin-bottom: 72px;
 }
+
+.our-team {
+  gap: 24px;
+}
+
+.list-foto {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+
+}
+
+.pib  {
+  padding: 32px 16px;
+}
+
+.pib .second-title {
+  text-align: center;
+  margin-bottom: 8px
+}
+
 
 .list-foto .second-title {
   text-align: center;
 }
 
-.list-foto .paragraf {
+.pib .paragraf {
   text-align: center;
 }
 
