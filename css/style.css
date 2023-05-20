@@ -248,7 +248,7 @@ border: 1px solid #E7E9FC;
 
 /** -------------------- section 2 ----------------- */
 
-.section-2 {
+.skills {
   padding: 120px 0;
 }
 
@@ -287,12 +287,8 @@ border: 1px solid #E7E9FC;
 
                                                            /* section 3 */
 
-.section-333-list {
+.doing {
   padding-bottom: 120px;
-}
-
-.section-333-list .list {
-
 }
 
 .title-main {
