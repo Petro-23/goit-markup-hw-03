@@ -256,7 +256,7 @@ border: 1px solid #E7E9FC;
   gap: 24px;
 }
 
-.section-2-skills {
+.characteristics {
   width: calc((100% - 72px) / 4);
 }
 
@@ -270,7 +270,7 @@ border: 1px solid #E7E9FC;
   padding-top: 32px;
 }
 
-.section-2-skills .second-title {
+.characteristics .second-title {
   margin-bottom: 8px;
 }
 
