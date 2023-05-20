@@ -38,6 +38,15 @@ img {
   color: #434455;
 }
 
+.list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
 .link {
   text-decoration: none;
   font-weight: 500;
@@ -54,13 +63,16 @@ img {
   color: #434455;
   /* background-color: var(--background-color); */
   width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .header-container {
+  display: flex;
   text-decoration: none;
   display: flex;
   align-items: baseline;
@@ -69,6 +81,8 @@ img {
 }
 
 .header-navigation {
+  display: flex;
+  align-items: center;
   padding-left: 156px;
 }
 
@@ -83,12 +97,18 @@ img {
   text-transform: uppercase;
   /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
   color: #4d5ae5;
-  margin-right: 76px
+  margin-right: 76px;
 }
 
-.header-list :first-child {
+.header-list {
   display: flex;
-  gap: 30px;
+  gap: 40px;
+  padding-top: 24px; 
+  padding-bottom: 24px;
+}
+
+
+.header-list :first-child {
   padding-top: 24px; 
   padding-bottom: 24px;
 }
@@ -99,16 +119,14 @@ img {
 padding-right: 156px;
 }
 
+.header-address li {
+
+}
+
 .span-logo {
   color: #2e2f42;
 }
-/* address */
-
-
-
-.address ul   {
-  display: flex;
-}
+/* ----------------address------------------- */
 
 .header-address-link {
   text-decoration: none;
@@ -125,14 +143,7 @@ padding-right: 156px;
 }
 
 
-.list {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+
 
 
 
@@ -172,7 +183,7 @@ border: 1px solid #E7E9FC;
   
   background-color: #2e2f42;
   width: 1440px;
-  
+  padding: 188px 0
   margin-top: 0px;
 
 }
@@ -194,6 +205,7 @@ border: 1px solid #E7E9FC;
   font-weight: 700;
   line-height: 1.07;
   margin-top: 0px;
+  margin-bottom: 48px;
 
   max-width: 496px;
   text-align: center;
@@ -241,12 +253,21 @@ border: 1px solid #E7E9FC;
   background-color: #404bbf;
 }
 
-                                                            /* section 2 */
+                                    /* section 2 */
 
 .section-2-list {
   width: 1128px;
-  padding: 120px 156px 120px 116px;
+  padding: 120px 0;
 }
+
+.section-2-list-div .list {
+  gap: 24px;
+}
+
+.strategy {
+  width: calc((100% - 72px) / 4);
+}
+
 
 .second-title {
   font-weight: 500;
