@@ -20,7 +20,6 @@ p {
   background-color: var(--background-color);
   position: relative;
   width: 1440px;
-  height: 2592px;
   margin: auto;
 }
 
@@ -53,6 +52,13 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+. portfolio-list .link {
+  background: #FFFFFF;
+/* CORNFLOWER */
+
+border: 1px solid #E7E9FC;
 }
 
 /* header */
@@ -101,7 +107,7 @@ p {
 .hero-name {
   display: flex;
   justify-content: center;
-  height: 188px;
+  
   font-size: 56px;
   font-family: "Roboto";
   font-style: normal;
@@ -150,8 +156,7 @@ p {
 
 .section-2-list {
   width: 1128px;
-  height: 104px;
-  padding: 120px 156px;
+  padding: 120px 156px 120px 116px;
 }
 
 .second-title {
@@ -169,6 +174,10 @@ p {
 }
 
 .paragraf {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
@@ -178,10 +187,7 @@ p {
                                                            /* section 3 */
 
 .section-3-list {
-  margin-top: 120px;
-  margin-bottom: 120px;
   width: 1128px;
-  height: 104px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -202,12 +208,14 @@ p {
   padding-bottom: 72px;
 }
 
+.title-main list {
+  padding-left: 0px;
+}
+
                                                          /* section 4 */
 .sec-ourteam {
-  margin-top: 120px;
   padding-top: 120px;
   width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
 }
 
@@ -225,7 +233,6 @@ p {
 
 /* footer */
 .footer {
-  margin-top: 60px;
   padding-top: 48px;
   padding-bottom: 48px;
   /* FOREST GREEN */
@@ -348,6 +355,7 @@ img {
   width: 1128px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 120px;
 }
 
 .portfolio-list li {
