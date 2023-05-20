@@ -19,8 +19,9 @@ p {
   color: #434455;
   background-color: var(--background-color);
   position: relative;
-  width: 1440px;
-  margin: auto;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Спискам убрать точки */
@@ -71,6 +72,7 @@ border: 1px solid #E7E9FC;
   text-transform: uppercase;
   /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
   color: #4d5ae5;
+  margin-right: 76px
 }
 
 .span-logo {
