@@ -358,14 +358,10 @@ border: 1px solid #E7E9FC;
 /**--------------------- footer -------------------------- */
 
 .footer {
-  display: flex;
-  width: 1440px;
-
+  padding: 100px 0;
   
   /* FOREST GREEN */
   background: #0f3f3c;
-
-
 }
 
 .footer-a-p {
@@ -378,6 +374,25 @@ border: 1px solid #E7E9FC;
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
+  color: #4d5ae5;
+
+}
+
+
+
+
+
+
+.web {
   color: #f4f4fd;
 }
 
