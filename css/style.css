@@ -288,7 +288,7 @@ border: 1px solid #E7E9FC;
 /**--------------------------- section 3 ---------------------- */
 
 .doing {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .title-main {
@@ -318,13 +318,18 @@ border: 1px solid #E7E9FC;
 /** -------------------------- section 4 -----------------*/
 .sec-ourteam {
   padding: 120px 0;
-  width: 1440px;
+  
+
+}
+
+.section-4-list-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   background-color: #f4f4fd;
 }
 
-.section-4-list-div .title-main {
-  margin-bottom: 72px;
-}
 
 .our-team {
   gap: 24px;
@@ -360,8 +365,7 @@ border: 1px solid #E7E9FC;
 .footer {
   padding: 100px 0;
   
-  /* FOREST GREEN */
-  background: #0f3f3c;
+  
 }
 
 .footer-a-p {
@@ -371,14 +375,17 @@ border: 1px solid #E7E9FC;
   padding-left: 156px;
   padding-top: 100px;
   padding-bottom: 100px;
+  /* FOREST GREEN */
+  background: #0f3f3c;
 }
 
 .footer-a-p a {
-  display: inline-block;
-  margin-bottom: 16px;
+  
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
