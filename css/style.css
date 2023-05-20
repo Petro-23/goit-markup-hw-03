@@ -285,7 +285,7 @@ border: 1px solid #E7E9FC;
   color: #434455;
 }
 
-                                                           /* section 3 */
+/**--------------------------- section 3 ---------------------- */
 
 .doing {
   padding-bottom: 120px;
@@ -300,7 +300,15 @@ border: 1px solid #E7E9FC;
   /* text-transform: capitalize; РЕГІСТР ТЕКСТУ, CAPITALIZE-перша літера кожного слова перетворюється на ВЕЛИКУ */
   color: #2e2f42;
   letter-spacing: 0.02em;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
+}
+
+.section-3-list-div .list {
+  gap: 24px;
+}
+
+.work {
+  width: calc((100% - 48px) / 3);
 }
 
 .title-main list {
