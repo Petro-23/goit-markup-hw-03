@@ -7,12 +7,7 @@ body {
   padding: 1px;
 }
 
-.body {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  padding: 1px;
-}
+
 
 /* Всем заголовкам и абзацам убираем отступы сверху сниху от браузера */
 p,
