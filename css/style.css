@@ -141,6 +141,8 @@ border: 1px solid #E7E9FC;
   width: 1440px;
   height: 600px;
   margin-top: 0px;
+
+  padding: 188px 0;
 }
 .hero-name {
   display: flex;
@@ -155,25 +157,36 @@ border: 1px solid #E7E9FC;
   padding-top: 188px;
   margin-top: 0px;
 
+  max-width: 496px;
+
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .button-service {
-  display: flex;
-  /* ВИРІВНЮВАННЯ ПО ВЕРТИКАЛІ І ПО ГОРИЗОНТАЛІ */
-  align-items: center;
-  justify-content: center;
-  /* white-space: nowrap; Запобігти переносу тексту */
+  
+  /* для можливості центрувати кнопку через властивість margin */
+  display: block;
+  
+  /* визначення мінімальної ширини кнопки */
+  min-width: 169px;
+  height: 56px;
+  
+  /* вимкнення стандартного оформлення кнопки */
+  border: none;
+  
+  /* визначення заокруглень у кнопки */
+  border-radius: 4px;
+
+  /* визначення типу курсору на кнопці */
+  cursor: pointer;
+
+   /* white-space: nowrap; Запобігти переносу тексту */
   white-space: nowrap;
   padding: 8px 32px;
   gap: 10px;
 
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
+  
 
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
