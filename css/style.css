@@ -5,6 +5,11 @@
 body {
   font-family: 'Roboto', normal;
   padding: 1px;
+  /* box-sizing: border-box;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto; */
+
 }
 
 
@@ -56,15 +61,25 @@ img {
 }
 
                                       /* Х-Е-Д-Е-Р */
-/**-------------- HEADER------------------ */
+/**--------------------- HEADER------------------ */
 
+/**-------------------- container ------------------------ */
 .container {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  /* background-color: var(--background-color); */
   width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
-  padding: 0 15px;
+  outline: 2px solid red;
+  
+
+
+
+  /* color: #434455;
+  /* background-color: var(--background-color); */
+  
+  margin: 0 auto;
+  padding: 0 15px; */
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
 }
 
 .header {
@@ -73,11 +88,7 @@ img {
 
 .header-container {
   display: flex;
-  text-decoration: none;
-  display: flex;
-  align-items: baseline;
-  background: #ffffff;
-  border-bottom: 1px solid #e7e9fc;
+  align-items: center;
 }
 
 .header-navigation {
@@ -143,11 +154,6 @@ padding-right: 156px;
 }
 
 
-
-
-
-
-
 .menu-item {
   text-decoration: none;
   /* text-decoration: none; ПРИБРАТИ ПІДКРЕСЛЕННЯ */
@@ -179,16 +185,16 @@ border: 1px solid #E7E9FC;
 
 .hero {
   padding: 188px 0;
+  padding-top: 0px;
 }
 
 .hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #2E2F42;
   padding-top: 188px;
   padding-bottom: 188px;
-
+  background: #2E2F42;
 }
 
 .hero-title {
@@ -376,12 +382,9 @@ border: 1px solid #E7E9FC;
   padding-top: 100px;
   padding-bottom: 100px;
   /* FOREST GREEN */
-  background: #0f3f3c;
+  background: #2E2F42;
 }
 
-.footer-a-p a {
-  
-}
 
 .footer-logo {
   display: inline-block;
