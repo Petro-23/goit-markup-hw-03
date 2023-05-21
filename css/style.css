@@ -41,6 +41,7 @@ img {
 .list {
   list-style: none;
   color: #434455;
+  outline: 2px solid green;
 }
 
 .list {
@@ -89,6 +90,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-navigation {
@@ -369,18 +371,19 @@ border: 1px solid #E7E9FC;
 
 .footer {
   padding: 100px 0;
+  background: #2E2F42;
   
   
 }
 
 .footer-a-p {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: left;
-  padding-left: 156px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  /* FOREST GREEN */
+  align-items: left; */
+  padding-left: 0;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+
   background: #2E2F42;
 }
 
@@ -506,6 +509,3 @@ img {
   filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
 }
 
-.otstyp {
-  padding-top: 0px;
-}
