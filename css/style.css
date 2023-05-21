@@ -38,11 +38,15 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none; 
+}
 
 
 /* Спискам убрать точки */
 .list {
   list-style: none;
+  
   color: #434455;
   /* outline: 2px solid green; */
 }
