@@ -411,7 +411,7 @@ border: 1px solid #E7E9FC;
   padding-top: 16px;
 }
 
-/* main */
+/** ------------------------------ main -------------*/
 .button-all {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -421,12 +421,21 @@ border: 1px solid #E7E9FC;
   color: #4d5ae5;
   background-color: #f4f4fd;
   cursor: pointer;
+
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  
 }
+
 .button-all:hover,
 .button-all:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .title-link {
   font-weight: 500;
   font-size: 20px;
@@ -438,8 +447,6 @@ border: 1px solid #E7E9FC;
 .portfolio-div-h2p .title-link {
   margin-bottom: 8px;
 }
-
-
 
 .address {
   display: block;
@@ -464,28 +471,9 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-
-  padding: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 586px;
-
 }
 
-.button-all {
-  padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-}
 
-.button-all:hover {
-  border: 1px solid transparent;
-}
-
-.button-all:focus {
-  border: 1px solid transparent;
-
-}
 
 .portfolio-list {
   flex-wrap: wrap;
@@ -495,7 +483,6 @@ img {
   width: 1128px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 120px;
 }
 
 .item-list {
@@ -508,20 +495,4 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-
-
-
-/* .portfolio-button-list li {
-  /* border-radius скругление, но изобр сверху не скруглилось */
-  /* нужно запретить переполнение елементов */
-  /* доб в начале overflow: hidden; */
-  overflow: hidden;
-  /* overflow: hidden; СКРУГЛИТЬ КАРТИНКИ */
-
-  border: #404bbf; */
-}
-
-/* .portfolio-button-list li:hover {
-  filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
-} */
 
