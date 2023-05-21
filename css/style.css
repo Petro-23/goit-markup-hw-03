@@ -185,7 +185,6 @@ border: 1px solid #E7E9FC;
 
 .hero {
   padding: 188px 0;
-  padding-top: 0px;
 }
 
 .hero-container {
@@ -505,4 +504,8 @@ img {
 
 .portfolio-button-list li:hover {
   filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+}
+
+.otstyp {
+  padding-top: 0px;
 }
