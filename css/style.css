@@ -44,7 +44,7 @@ img {
 .list {
   list-style: none;
   color: #434455;
-  outline: 2px solid green;
+  /* outline: 2px solid green; */
 }
 
 .list {
@@ -67,23 +67,14 @@ img {
                                       /* Х-Е-Д-Е-Р */
 /**--------------------- HEADER------------------ */
 
-/**-------------------- container ------------------------ */
+/**-------------------- CONTAINER ------------------------ */
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
-  
-
-
-
-  /* color: #434455;
-  /* background-color: var(--background-color); */
+  /* outline: 2px solid red; */
   
   margin: 0 auto;
-  padding: 0 15px; */
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25); */
 }
 
 .header {
@@ -99,7 +90,7 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  padding-left: 156px;
+
 }
 
 
@@ -119,8 +110,6 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px; 
-  padding-bottom: 24px;
 }
 
 
@@ -132,7 +121,6 @@ img {
 .header-address {
   font-style: normal;
   /* font-style: normal; НАКРЕСЛЕННЯ ТЕКСТУ, НОРМ, КУРСИВ */
-padding-right: 156px;
 }
 
 .header-address li {
@@ -258,6 +246,7 @@ border: 1px solid #E7E9FC;
 
 .skills {
   padding: 120px 0;
+  box-sizing: border-box;
 }
 
 .section-2-list-div .list {
@@ -297,6 +286,7 @@ border: 1px solid #E7E9FC;
 
 .doing {
   padding: 120px 0;
+  box-sizing: border-box;
 }
 
 .title-main {
@@ -326,21 +316,26 @@ border: 1px solid #E7E9FC;
 /** -------------------------- section 4 -----------------*/
 .sec-ourteam {
   padding: 120px 0;
-  
-
+  background-color: #f4f4fd;
 }
+
+
+
 
 .section-4-list-div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: o auto;
+  padding-left: 0px;
+  padding-right: 0px;
 
-  background-color: #f4f4fd;
 }
 
 
 .our-team {
   gap: 24px;
+  /* background-color: tomato; */
 }
 
 .list-foto {
@@ -368,6 +363,7 @@ border: 1px solid #E7E9FC;
   text-align: center;
 }
 
+
 /**--------------------- footer -------------------------- */
 
 .footer {
@@ -378,14 +374,15 @@ border: 1px solid #E7E9FC;
 }
 
 .footer-a-p {
+  padding-left: 30px;
   /* display: flex;
   flex-direction: column;
   align-items: left; */
-  padding-left: 0;
+
   /* padding-top: 100px;
   padding-bottom: 100px; */
 
-  background: #2E2F42;
+
 }
 
 
@@ -442,9 +439,7 @@ border: 1px solid #E7E9FC;
 }
 
 
-.sec-ourteam .list {
-  padding: 72px 156px 104px 156px;
-}
+
 
 .address {
   display: block;
